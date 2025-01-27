@@ -1,0 +1,80 @@
+body{
+    background-color:mediumseagreen
+}
+
+.Content{
+    margin: auto;
+    background-color: rgb(217, 234, 214);
+    width: 25%;
+    height: 68vh;
+    margin-top: 50px;
+    border-radius: 15px;
+    position: relative;
+    color: rgb(114, 30, 30);
+    
+
+}
+.Profile{
+    position:absolute;
+    text-align: center;
+    margin-left:30px;
+    margin-top: -100px;
+    background-color: rgb(212, 8, 25);
+
+    padding: 50px;
+    width: 60%;
+    border-radius: 8px;
+    
+
+}
+.Logo{
+    position: absolute;
+    
+
+}
+
+.round{
+    border-radius: 50%;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+.circle img{
+        width: 150px;
+        height: 100px;
+
+}
+.text{
+    margin-top: 250px;
+    position: absolute;
+    padding: 30px;
+    color: rgb(128, 109, 0);
+
+}
+.text i{
+    font-size: 10px;
+    padding: 1px;
+}
+.Logo{
+  background-color:rgb(115, 128, 0);
+  width: 280px;
+  height: 60px;
+  position: absolute;
+  top: 460px;
+  margin-left: 30px;
+  border-radius: 10px;
+  
+}
+.Logo i{
+    font-size: 32px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 3px;
+    
+    
+
+}
+.s{
+    padding: 50px;
+}

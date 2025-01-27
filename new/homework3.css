@@ -1,0 +1,70 @@
+body{
+    
+    background-image: url("car image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.box{
+  margin: auto;
+  display: flex;
+  width: 50%;
+  box-shadow: 2px 2px 15px 1px;
+  margin-top: 100px;
+  height: 520px;
+}
+.contant{
+  background-color:white;
+  width: 50%;
+  text-align:center;
+  height: 100%;
+}
+.image{
+  width: 50%;
+  height: 300px;
+}
+input[type="text"]{
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(83, 20, 20, 0.451);
+}
+input[type="number"]{
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(202, 62, 62, 0.451);
+}
+
+textarea{
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(240, 113, 113, 0.451);
+
+}
+button{
+  width: 88%;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(4, 89, 246, 0.793);
+  border-radius: 5px;
+}
+h2{
+  position: relative;
+}
+h2::after{
+  Content: '';
+  width: 10%;
+  height: 3px;
+  background-color: rgb(128, 51, 0);
+  position: absolute;
+  bottom: -5px;
+  left: 45%;
+
+}

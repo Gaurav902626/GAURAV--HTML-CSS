@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(23, 50, 138, 0.371);
+}
+.main{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 1px 9px 20px 2px;    
+}
+.form {
+    text-align: center;
+    padding: 20px;
+    
+}
+button{
+    width: 40%;
+    padding: 15px;
+    margin-top: 25px;
+
+}
+#blue{
+    background-color: blue;
+    border-radius: 10px;
+}
+#big{
+
+    border-radius: 5px;
+}
+.creat{
+    margin-top: 50px;
+}
+input{
+    width: 75%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0.1px 1px 0px 0.1px;
+    border: 0px;
+}
+input[type="number"]{
+    margin-top: 20px;
+
+}
+.info p{
+    margin-left: -210px;
+    margin-top: 5px;
+    color: blue;
+}
+.nav button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    
+
+}
+.nav p{
+ margin-left: 10px;
+    float: left;
+   
+}
+.side{
+    margin-top: 20px;
+    float: left;
+    margin-left: 110px;
+}
+#m{
+    color: blue;
+}
+.pass{
+    margin-left: 80 px;
+}

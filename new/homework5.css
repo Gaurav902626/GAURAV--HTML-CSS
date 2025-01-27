@@ -1,0 +1,49 @@
+body{
+    
+}
+.main{
+    float: left;
+    height: 90vh;
+    width: 80%;
+    background-color: aliceblue;
+}
+.suk{
+    margin: auto;
+    background-color: aqua;
+    width: 80%;
+    background-image: url(nature-27.jpg);
+    margin-top: 20PX;
+    height: 200px;
+}
+.pic{
+    height:400px;
+    width: 20%;
+    float: left;
+    box-shadow: 20px;
+    border: solid rgb(138, 8, 8);
+    overflow: auto;
+    margin-left: 1%;
+    margin-top: 2vh;
+    
+
+}
+img{
+    height: 0px;
+    width: 0px;
+}
+button{
+      margin-top: 100px;
+      width: 80%;
+      padding: 10px;
+      margin-left: 30px;
+      background-color: rgba(48, 17, 187, 0.595);
+}
+h2{
+    margin-left: 10px;
+    margin-top: 89px;
+
+}
+p{
+    margin-left: 10px;
+    
+}

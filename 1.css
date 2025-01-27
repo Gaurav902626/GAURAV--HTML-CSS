@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+
+}
+.header .icons{
+    float: right;
+    padding-right: 50px;
+    color: blueviolet;
+}
+
+navbar.a{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
