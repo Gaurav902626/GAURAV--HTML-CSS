@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.header .icons{
+    float: right;
+    padding-right: 50px;
+    color: blueviolet;
+    font-size: medium;
+}
+
+.navbar{
+    /* width: 80px; */
+    height: 60px;
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+}
+.content{
+
+    margin-left: 50px;
+    bottom: 150px;
+    position: absolute;
+    font-size: 25px;
+}
+.img{
+    position: relative;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: brown;
+}
+
+.txt{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.boxes{
+    position: relative;
+}
+    
+.box-1{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    text-align: center;
+    bottom: 50px;
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    margin-left: 360px;
+    text-align: center;
+/* margin-bottom: 20px; */
+    position: absolute;
+    bottom: 1PX;
+
+}
+.box-3{
+    width: 300px;
+    height: 300px;
+    margin-left: 650px;
+    text-align: center;
+/* margin-bottom: 20px; */
+    position: absolute;
+    bottom: 1PX;
+}
+.box-4{
+width: 300px;
+height: 300px;
+margin-left: 920px;
+text-align: center;
+/* margin-bottom: 20px; */
+    position: absolute;
+    bottom: 0PX;
+}
+.text-contant{
+    text-align: center;
+    font-size: 20px;
+}
+.pic1{
+    width: 370px;
+    height: 390px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: white;
+}
+ .pic2{
+    width: 370px;
+    height: 390px;
+    border-radius: 10px;
+    margin-left: 520px;
+    bottom: 390px;
+    position: relative;
+ }   
+.pic3{
+    width: 390px;
+    height: 390px;
+    border-radius: 20px;
+    margin-left: 950px;
+    bottom: 770px;
+    position: relative;
+    
+}
+.btn2{
+    text-align: center;
+    bottom: 760px;
+    position: relative;
+    padding: 10px;
+    color: rgb(192, 87, 87);
+}
+.services{
+    background-color: white;
+    width: 1450px;
+    height: 650px;
+
+}
+.health-care{
+  margin-top: 50px;
+    display: flex;
+}
+.dp{
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.healt-cont{
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: "quicksand";
+
+}
+.bu{
+    padding-left: 80px;
+}
+.sp-contant{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+.cardbox{
+     /* border: 1px solid  */
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+margin-top: 50px;
+}
+.cardbox2{
+    /* border: 1px solid red; */
+    display: flex;
+justify-content:space-evenly;
+align-items: center;
+margin-top: 120px;
+
+}
+.tet{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.choose{
+    width: 100%;
+    height: 120vh;
+    /* background-color: darkgreen; */
+}
+.dp_doctor{
+    /* border: 1px solid rgb(4, 0, 255); */
+    flex-direction: row;
+    height:100vh;
+    margin-top: 50px;
+    /* background-color: rgb(189, 183, 177); */
+    display: flex;
+    align-items: center;
+}
+.container_left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 600px;
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 2px;
+    /* background-color: darkgoldenrod; */
+}
+
+.dp_1{
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.08);
+    justify-content: left;
+    /* background-color: aqua; */
+
+    
+}
+.dp_2{
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.08);
+    justify-content: left;
+    /* background-color: blue; */
+
+    
+}
+
+.d_3{
+width:50%;
+height: 600px;
+/* background-color: blueviolet; */
+}
+.tm{
+    /* display: flex; */
+    /* margin-bottom: 500px;
+    margin-left: 100px;
+    gap: 100px; */
+}
+.d_4{
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.08);
+    padding: 1%;
+    /* margin-left: 8% */
+    /* background-color: brown; */
+    
+}
+.d_5{
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.08);
+    padding: 1%;
+    /* background-color: blueviolet; */
+}
+
+.appointment{
+    border: 1px solid green;
+    width: 1400px;
+    height: 60vh;
+    background-color: rgb(87, 122, 87);
+}
+.appointment_content{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+.btn_app button{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.experience{
+    /* display: flex; */
+    border: 1px solid rgb(163, 50, 50);
+    width: 900px;
+    height: 100px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.08);
+    margin-left: 200px;
+    position: absolute;
+    
+}
